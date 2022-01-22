@@ -34,10 +34,11 @@ export const BannerTitle = styled.div`
     position: inherit;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 
     ${(props) => props.theme.breakpoints.down('md')} {
         margin-left: 1rem;
-        width: 100%;
+        width: 100% !important;
         padding-right: 3rem;
         padding-left: 1rem;
     }
@@ -51,7 +52,7 @@ export const BannerTitle = styled.div`
             text-transform: uppercase;
 
             ${(props) => props.theme.breakpoints.down('sm')} {
-                font-size: 2.3rem;
+                font-size: 2rem;
             }
         }
 
@@ -62,6 +63,10 @@ export const BannerTitle = styled.div`
             font-weight: 300;
             margin-top: 1.5rem;
             text-align: justify;
+
+            ${(props) => props.theme.breakpoints.down('md')} {
+               width: 100%;
+            }
         }
 
         .button {
