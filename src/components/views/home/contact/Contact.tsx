@@ -80,7 +80,7 @@ function Contact() {
                         </div>
                     </div>
                     <div className="location">
-                        <span><img src='/assets/icons/location.png' alt='location'/></span> Rohrmoser, 50m de Farmacia Fishel
+                        <span><img src='/assets/icons/location.png' alt='location'/></span> Rohrmoser, 50m norte de Euromobilia
                     </div>
                     <div className="waze-social">
                         <div>

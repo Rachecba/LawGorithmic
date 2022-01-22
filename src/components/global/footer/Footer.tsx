@@ -25,7 +25,7 @@ function Footer() {
                     <h1>Contacto</h1>
                     <ul className="contacts">
                         <li><span><img alt='instagram' src='/assets/icons/phone-blue.png' /></span> 8466-4391</li>
-                        <li><span><img alt='instagram' src='/assets/icons/location.png' /></span> Rohrmoser, 50m de Farmacia Fishel</li>
+                        <li><span><img alt='instagram' src='/assets/icons/location.png' /></span> Rohrmoser, 50m norte de Euromobilia</li>
                         <li><span><img alt='instagram' src='/assets/icons/mail-lightblue.png' /></span> info@lawgorithmic.io</li>
                         <li><span><img alt='instagram' src='/assets/icons/waze.png'/></span> Abrir en Waze</li>
                     </ul>
