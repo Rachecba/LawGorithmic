@@ -2,17 +2,17 @@ export const services = [
     {
         icon: '/assets/icons/legal-consulting.png',
         title: 'Consultoría Legal y Regulatoria',
-        description: 'Le guiamos y aclaramos cualquier duda legal que tenga'
+        description: 'En LawGorithmic contamos con un equipo capaz de ofrecer los servicios legales clásicos, pero además orientados a las nuevas “fintechs” y servicios afines'
     },
     {
         icon: '/assets/icons/financial-consulting.png',
         title: 'Consultoría Financiera',
-        description: 'Le asesoramos en los procesos financieros de su negocio'
+        description: 'Contamos con un equipo financiero y contable que entiende la manera en que las tecnologías disruptivas han transformado la gestión financiera y contable del mundo de las empresas'
     },
     {
         icon: '/assets/icons/tax.png',
         title: 'Planificación Fiscal',
-        description: 'Le ayudamos a aliviar la carga tributaria de su negocio'
+        description: 'Contamos con expertos tributarios del más alto nivel capaces de adaptarse a los retos de la fiscalidad del siglo XXI'
     },
     {
         icon: '/assets/icons/project-management.png',
@@ -22,22 +22,22 @@ export const services = [
     {
         icon: '/assets/icons/marketing.png',
         title: 'Servicios de Mercadeo y Comunicación',
-        description: ''
+        description: 'Le ayudamos a posicionar sus activos digitales a través de diferentes campañas de publicidad y mercadeo'
     },
     {
         icon: '/assets/icons/will.png',
         title: 'Servicios Fiduciarios',
-        description: 'Administramos sus bienes de manera confiable e idónea'
+        description: 'Ofrecemos administración y custodia de activos tradicionales y digitales'
     },
     {
         icon: '/assets/icons/otc.png',
         title: 'OTC’s',
-        description: 'Le asesoramos en las mejores negociaciones'
+        description: 'Compra y venta de criptomonedas'
     },
     {
         icon: '/assets/icons/home.png',
         title: 'Gestión Patrimonial',
-        description: 'Administramos su patrimonio de manera confiable e idónea'
+        description: 'Con nuestros socios comerciales le ayudaremos a invertir y hacer crecer su patrimonio'
     }
 ]
 
