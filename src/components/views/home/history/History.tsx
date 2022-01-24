@@ -26,7 +26,7 @@ function History() {
                     existente, o administrar de manera astuta su patrimonio, <span>Lawgorithmic es el aliado
                     estratégico que usted necesita.</span>
                 </p>
-                <button onClick={() => setDisplay(!display)}>Saber más</button>
+                <button onClick={() => setDisplay(!display)}>{ !display ? 'Saber más' : 'Ocultar'}</button>
             </Styled.Band>
             <img src='/assets/images/ethereum.jpg' alt='history' className={ display ? 'big' : ''}/>
         </Styled.Container>

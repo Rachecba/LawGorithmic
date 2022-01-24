@@ -19,7 +19,7 @@ export const Container = styled.div`
             width: 100% !important;
          }
 
-         ${(props) => props.theme.breakpoints.down('lg')} {
+         ${(props) => props.theme.breakpoints.down('')} {
             display: none;
          }
     }

@@ -21,6 +21,11 @@ export const NavBar = styled.div<{
   transition: all ease 1s;
   display: block;
 
+  ${(props) => props.theme.breakpoints.up('lg')} {
+    flex-wrap: nowrap;
+    justify-content: flex-end !important;
+  }
+
   .navbar {
     padding: 0 !important;
     transition: all ease 1s;
