@@ -99,6 +99,15 @@ export const Us = styled.div`
 export const Contact = styled.div`
 
     display: block;
+
+    .waze {
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+            color: #0a58ca;
+        }
+    }
     
     h1 {
         font-weight: 300;

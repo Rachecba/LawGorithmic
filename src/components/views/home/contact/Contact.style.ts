@@ -29,6 +29,10 @@ export const FormContainer = styled.div`
     font-family: montserrat, sans-serif;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    
+    ${(props) => props.theme.breakpoints.down('lg')} {
+        width: 80%;
+    }
 
     ${(props) => props.theme.breakpoints.down('sm')} {
         padding: 1rem;
@@ -172,6 +176,15 @@ export const ContactInfo = styled.div`
         font-size: 0.9rem;
     }
 
+    .waze {
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+            color: #0a58ca;
+        }
+    }
+
     img {
         width: 25px;
         margin-right: 0.5rem;
@@ -187,6 +200,10 @@ export const ContactInfo = styled.div`
 
     .phone-email {
         display: flex;
+
+        ${(props) => props.theme.breakpoints.down('sm')} {
+            display: block;
+        }
 
         .phone {
             margin-right: 5.5rem;

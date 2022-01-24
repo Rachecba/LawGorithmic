@@ -50,7 +50,6 @@ export const DescriptionContainer = styled.div`
 
             ${(props) => props.theme.breakpoints.down('sm')} {
                 font-size: 1.8rem;
-                text-align: justify;
             }
         }
 

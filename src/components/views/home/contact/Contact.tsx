@@ -59,7 +59,7 @@ function Contact() {
 
                         <div className='message'>
                             <label>Mensaje</label>
-                            <textarea placeholder="Escriba su mensaje" name="message" id='message' />
+                            <textarea placeholder="Déjenos saber cómo le podemos ayudar" name="message" id='message' />
                             <ValidationError
                                 prefix="message"
                                 field="message"
@@ -84,11 +84,11 @@ function Contact() {
                     </div>
                     <div className="waze-social">
                         <div>
-                            <span><img src='/assets/icons/waze.png' alt='waze'/></span> Abrir en Waze
+                            <a className='waze' target='_blank' href='https://ul.waze.com/ul?preview_venue_id=180813923.1808073698.3815409&navigate=yes&utm_campaign=waze_website&utm_source=waze_website&utm_medium=lm_share_location'><span><img src='/assets/icons/waze.png' alt='waze'/></span> Abrir en Waze</a>
                         </div>
                         <div className='social'>
                             <span><img src='/assets/icons/instagram.png' alt='Instagram'/></span>
-                            <span><img src='/assets/icons/facebook.png' alt='facebook'/></span>
+                            <span><img src='/assets/icons/facebook.png' alt='facebook' /></span>
                         </div>
                     </div>
                 </Styled.ContactInfo>

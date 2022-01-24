@@ -84,12 +84,12 @@ export const NavBar = styled.div<{
     ${(props) => props.theme.breakpoints.down('md')} {
       margin-right: 0;
       margin-left: 0;
-      width: 15rem !important;
-      height: 4rem !important;
+      width: 14rem !important;
+      height: 4.2rem !important;
     }
 
     ${(props) => props.theme.breakpoints.down('sm')} {
-      width: 15rem !important;;
+      width: 14rem !important;;
       height: 4rem !important;
     }
   }
@@ -125,7 +125,7 @@ export const NavBar = styled.div<{
 
     img {
       width: 14rem !important;
-      height: 4rem !important;
+      height: 4.2rem !important;
       transition: all ease 1s;
       margin-top: 0.2rem;
 

@@ -52,7 +52,7 @@ export const BannerTitle = styled.div`
             text-transform: uppercase;
 
             ${(props) => props.theme.breakpoints.down('sm')} {
-                font-size: 2rem;
+                font-size: 1.8rem;
             }
         }
 

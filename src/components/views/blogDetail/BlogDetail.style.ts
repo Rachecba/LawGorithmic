@@ -3,22 +3,22 @@ import styled from 'styled-components'
 export const Container = styled.div`
 
     .back-button {
-            font-family: montserrat, sans-serif;
-            font-weight: 500;
-            font-size: 1rem;
-            letter-spacing: 1.11px;
-            background: #2680EB 0% 0% no-repeat padding-box;
-            border-radius: 7px;
-            color: white;
-            border: none;
-            width: 12rem;
-            height: 3rem;
-            transition: all 0.5s ease-in-out;
+        font-family: montserrat, sans-serif;
+        font-weight: 500;
+        font-size: 1rem;
+        letter-spacing: 1.11px;
+        background: #2680EB 0% 0% no-repeat padding-box;
+        border-radius: 7px;
+        color: white;
+        border: none;
+        width: 12rem;
+        height: 3rem;
+        transition: all 0.5s ease-in-out;
 
-            &:hover {
-                background-color: #cc790c;
-                transition: all 0.5s ease-in-out;
-            }
+        &:hover {
+            background-color: #cc790c;
+            transition: all 0.5s ease-in-out;
+        }
     }
 
 `
@@ -37,8 +37,14 @@ export const Banner = styled.div`
         letter-spacing: 3px;
         width: 65%;
 
-        ${(props) => props.theme.breakpoints.down('sm')} {
+        ${(props) => props.theme.breakpoints.down('md')} {
             width: 100%;
+            font-size: 2rem;
+        }
+
+        ${(props) => props.theme.breakpoints.down('lg')} {
+            width: 100%;
+            font-size: 2.3rem;
         }
     }
 
@@ -51,7 +57,7 @@ export const Banner = styled.div`
         align-items: end;
         font-family: montserrat, sans-serif;
 
-        ${(props) => props.theme.breakpoints.down('sm')} {
+        ${(props) => props.theme.breakpoints.down('lg')} {
             width: 100%;
             align-items: start;
         }
@@ -61,7 +67,7 @@ export const Banner = styled.div`
         display: flex;
         justify-content: space-between;
         
-        ${(props) => props.theme.breakpoints.down('sm')} {
+        ${(props) => props.theme.breakpoints.down('lg')} {
             display: block;
             width: 100%;
         }
@@ -79,8 +85,8 @@ export const Banner = styled.div`
 `
 
 export const BlogContainer = styled.div`
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
     margin-top: 3rem;
 
     ${(props) => props.theme.breakpoints.down('sm')} {
@@ -96,10 +102,22 @@ export const Body = styled.div`
     text-align: justify;
     font-size: 1.2rem;
 
+    ${(props) => props.theme.breakpoints.down('md')} {
+        font-size: 1rem;
+    }
+
     h2 {
         margin-top: 3rem;
         margin-bottom: 2rem;
         color: white;
+
+        ${(props) => props.theme.breakpoints.down('md')} {
+            font-size: 1.3rem;
+        }
+
+        ${(props) => props.theme.breakpoints.down('lg')} {
+            font-size: 1.6rem;
+        }
     }
 
     .original {
