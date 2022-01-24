@@ -230,16 +230,28 @@ export const ContactInfo = styled.div`
 `
 
 export const MessageSendContainer = styled.div`
-  background-color: #222222;
-  color: whitesmoke;
-  width: 50%;
-  height: 12rem;
-  margin: auto;
-  margin-top: 7rem;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
+    background-color: rgb(0 0 0 / 53%);
+    border-radius: 22px;
+    opacity: 1;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    width: 50%;
+    padding: 4rem;
+    color: white;
+    font-family: montserrat, sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    ${(props) => props.theme.breakpoints.down('lg')} {
+        width: 80%;
+    }
+
+    ${(props) => props.theme.breakpoints.down('sm')} {
+        padding: 1rem;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius: 0;
+    }
 `
 export const Message = styled.div``

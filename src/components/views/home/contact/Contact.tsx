@@ -6,13 +6,15 @@ function Contact() {
   const [state, handleSubmit] = useForm("mqkagopr");
 
   if (state.succeeded) {
-    return (
-      <Styled.MessageSendContainer>
-        <Styled.Message>
-          <h4>¡Gracias por su mensaje!</h4>
-          <h5>Le estaremos contestando a su correo electrónico lo más pronto posible</h5>
-        </Styled.Message>
-      </Styled.MessageSendContainer>
+      return (
+        <Styled.Container>
+            <Styled.MessageSendContainer>
+                <Styled.Message>
+                <h4>¡Gracias por su mensaje!</h4>
+                <h5>Le estaremos contestando a su correo electrónico lo más pronto posible</h5>
+                </Styled.Message>
+            </Styled.MessageSendContainer>
+        </Styled.Container>
     )
   }
 
