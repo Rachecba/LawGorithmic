@@ -111,10 +111,11 @@ export const TitleContainer = styled.div`
         }
 
         p {
-            font-size: 2rem;
+            font-size: 1.6rem;
+            font-family: 'Montserrat',sans-serif;
 
             ${(props) => props.theme.breakpoints.down('md')} {
-              font-size: 1.5rem;
+              font-size: 1.3rem;
            }
         }
     }
