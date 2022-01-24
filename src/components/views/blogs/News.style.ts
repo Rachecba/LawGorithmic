@@ -52,7 +52,7 @@ export const BannerTitle = styled.div`
             text-transform: uppercase;
 
             ${(props) => props.theme.breakpoints.down('sm')} {
-                font-size: 1.8rem;
+                font-size: 1.6rem;
             }
         }
 
@@ -66,6 +66,7 @@ export const BannerTitle = styled.div`
 
             ${(props) => props.theme.breakpoints.down('md')} {
                width: 100%;
+               font-size: 0.8rem;
             }
         }
 
