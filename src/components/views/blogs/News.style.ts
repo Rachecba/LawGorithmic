@@ -44,6 +44,8 @@ export const BannerTitle = styled.div`
     }
 
     .text {
+        width: 100%;
+        
         h1 {
             font-family: 'Mulish', sans-serif !important;
             font-weight: bold;
@@ -52,7 +54,7 @@ export const BannerTitle = styled.div`
             text-transform: uppercase;
 
             ${(props) => props.theme.breakpoints.down('sm')} {
-                font-size: 1.6rem;
+                font-size: 1.8rem;
             }
         }
 
@@ -66,7 +68,6 @@ export const BannerTitle = styled.div`
 
             ${(props) => props.theme.breakpoints.down('md')} {
                width: 100%;
-               font-size: 0.8rem;
             }
         }
 
