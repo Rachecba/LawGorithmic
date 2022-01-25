@@ -88,7 +88,7 @@ export const team = [
         image: '/assets/images/International.png',
         name: 'Lic. Dayana Badilla',
         position: 'Abogada',
-        career: 'Fiscalía Internacional'
+        career: 'Fiscalidad Internacional'
     },
     {
         image: '/assets/images/Crypto.png',
