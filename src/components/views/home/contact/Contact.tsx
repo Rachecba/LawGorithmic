@@ -3,7 +3,7 @@ import { useForm, ValidationError } from '@formspree/react'
 import * as Styled from './Contact.style'
 
 function Contact() {
-  const [state, handleSubmit] = useForm("mqkagopr");
+  const [state, handleSubmit] = useForm("xayvqrby");
 
   if (state.succeeded) {
       return (
@@ -37,7 +37,7 @@ function Contact() {
                                     <input className="input-field" type="text" placeholder="Juan Hernández" name="user" id='user' />
                                 </div>
                                 <ValidationError
-                                    prefix="user"
+                                    prefix="User"
                                     field="user"
                                     errors={state.errors}
                                 />
@@ -52,7 +52,7 @@ function Contact() {
                                     <input className="input-field" type="email" placeholder="ejemplo@gmail.com" name="mail" id='mail'/>
                                 </div>
                                 <ValidationError
-                                    prefix="mail"
+                                    prefix="Email"
                                     field="mail"
                                     errors={state.errors}
                                 />
@@ -63,7 +63,7 @@ function Contact() {
                             <label>Mensaje</label>
                             <textarea placeholder="Déjenos saber cómo le podemos ayudar" name="message" id='message' />
                             <ValidationError
-                                prefix="message"
+                                prefix="Message"
                                 field="message"
                                 errors={state.errors}
                             />
