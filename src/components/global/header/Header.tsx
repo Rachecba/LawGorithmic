@@ -34,7 +34,7 @@ function Header({ position }: {position?: boolean}) {
 
   return (
     <Styled.NavBar background={isOpen ? 'black' : 'transparent'} position={position ? 'inherit' : 'fixed'}>
-      <Navbar expand="md" className= {navbar ? 'activeNav' : ''}>
+      <Navbar expand="lg" className= {navbar ? 'activeNav' : ''}>
         <NavbarBrand href="/"><img src="/assets/images/Logo.png" alt="LawGorithmic logo" /></NavbarBrand>
         <NavbarToggler onClick={toggle}>
           <span>

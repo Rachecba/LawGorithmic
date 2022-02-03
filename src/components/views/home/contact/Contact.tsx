@@ -89,7 +89,7 @@ function Contact() {
                             <a className='waze' target='_blank' href='https://ul.waze.com/ul?preview_venue_id=180813923.1808073698.3815409&navigate=yes&utm_campaign=waze_website&utm_source=waze_website&utm_medium=lm_share_location'><span><img src='/assets/icons/waze.png' alt='waze'/></span> Abrir en Waze</a>
                         </div>
                         <div className='social'>
-                            <span><img src='/assets/icons/instagram.png' alt='Instagram'/></span>
+                            <span><a href='https://www.instagram.com/lawgorithmic/' target='_blank'><img src='/assets/icons/instagram.png' alt='Instagram'/></a></span>
                             <span><img src='/assets/icons/facebook.png' alt='facebook' /></span>
                         </div>
                     </div>

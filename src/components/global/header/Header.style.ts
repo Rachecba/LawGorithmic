@@ -26,6 +26,10 @@ export const NavBar = styled.div<{
     justify-content: flex-end !important;
   }
 
+  .navbar-collapse {
+    flex-grow: unset;
+  }
+
   .navbar {
     padding: 0 !important;
     transition: all ease 1s;
@@ -83,7 +87,7 @@ export const NavBar = styled.div<{
     width: 17rem !important;
     height: 4.5rem !important;
     padding: 1rem;
-    margin-left: 5rem;
+    margin-left: 2rem;
     transition: all 1s ease;
 
     ${(props) => props.theme.breakpoints.down('md')} {
@@ -170,7 +174,7 @@ export const NavBar = styled.div<{
   }
 
   .nav-item {
-    margin-right: 6rem;
+    margin-right: 3rem;
     text-transform: uppercase;
     line-height: 2;
 
