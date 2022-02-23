@@ -38,6 +38,16 @@ export const services = [
         icon: '/assets/icons/home.png',
         title: 'Gestión Patrimonial',
         description: 'Con nuestros socios comerciales le ayudaremos a invertir y hacer crecer su patrimonio'
+    },
+    {
+        icon: '/assets/icons/nft.png',
+        title: "NFT's",
+        description: ''
+    },
+    {
+        icon: '/assets/icons/tokens.png',
+        title: 'Tokenización de Activos',
+        description: ''
     }
 ]
 
