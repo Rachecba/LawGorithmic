@@ -242,6 +242,43 @@ export const news = [
         originalUrl: 'https://www.asuntoslegales.com.co/actualidad/gobierno-colombiano-anuncia-el-primer-contrato-mundial-de-mineria-acunado-como-nft-3268229',
         original: 'asuntos:legales',
         prev: '2',
+        next: '4'
+    },
+    {
+        id: '4',
+        image: '/assets/images/NFT-token.jpg',
+        title: "NFT's a través del foco legal y financiero",
+        shortDescription: 'Dos firmas que tienen operaciones en el país, Baker McKenzie y Lexia Abogados, trabajan con la Agencia Nacional de Minería como estrategas',
+        description: [
+            {
+                title: "¿Qué son los NFT's?",
+                text: [
+                    '¿Qué son los NFT’s?  Sus siglas significan “Non fungible token”, lo que se interpreta de manera literal en español como un “Token no fungible”. Cada uno de estos activos es representado por una serie de alfanuméricos que le dan una identidad única a cada token. Esto lo podemos traducir a palabras más sencillas como un certificado digital de autenticidad. Ya que la representación de estos es única y exclusiva para las personas que lo tienen en su propiedad. Dicho sea de paso, que es esta una de las razones por las que esta tecnología ha tenido un apogeo tan grande en los últimos 24 meses.',
+                    'Los NFT’s pueden ser simbolizados de muchas maneras, como por ejemplo a través de arte, música, bienes muebles, inmuebles, entre otras. Ahora que entendemos que es un NFT, tenemos que entender como se da la comercialización de estos; ¿Qué es lo que los hace tan atractivos? ¿Cómo gana valor el NFT?  Pues bien, como todo activo, el valor es algo que se genera a partir del comportamiento de este dentro del mercado. Es por esto que entre más exclusivo o “raro” sean los activos que se venden, mayor es su precio en la reventa.',
+                    'Es de suma importancia aclarar, que dentro de este gran mundo tecnológico llamado “Blockchain”, existen diferentes redes sobre las cuales funcionan los NFT’s. Tales como Ethereum, Binance Smartchain y Solana. La primera red en operar de manera continua y que ha tenido más repercusión en este nicho de mercado es Ethereum o bien, la ERC-20. Sin embargo, cada una tiene un “gas fee” diferente, los cuales varían siendo más costosos o baratos entre sí. El hecho de que día a día salgan a la luz nuevas redes criptográficas sobre las que se puede programar, nos da una amplitud de mercado sumamente grande. Esto debido a que se vuelve accesible para cualquier individuo que quiera formar arte de esta revolución tecnológica.',
+                ]
+            },
+            {
+                title: "Más que Arte y Videojuegos",
+                text: [
+                    'Ahora que entendemos el funcionamiento de los NFT’s es importante repasar cuales son otros de sus usos, y por qué es tan revolucionario este tema. Más allá de pensar que todos los NFT’s son arte, o activos de videojuegos, hay que verlo como el futuro de los títulos de propiedad y contratos digitales. El funcionamiento de estos activos se maneja de manera automatizada y es cien por ciento programable. Lo que quiere decir que se puede configurar el token, con capacidades específicas, para que este actúe con base en las instrucciones que se le ordenen. Para ejemplificarlo de una manera muy sencilla usemos la compra de una casa: hoy en día cada propiedad tiene un número de folio real único, el cuál es un número que la representa a nivel registral. Es decir que, si se adquiere una propiedad y no se cuenta con ese dato, la casa no podrá ser vendida, ya que sin esto no hay como demostrar la existencia de dicha propiedad. Ahora bien, ¿qué pasaría sin en un futuro, el título de propiedad y el número de folio real, se trabajara a través de un contrato inteligente? Sería sumamente práctico y seguro para las partes que tienen los activos en su poder. Y, además, habría una trazabilidad del activo, en un registro infinito, donde cada vez que se compre o venda esa propiedad, siempre va a quedar trazado.',
+                    'El año pasado a finales del mes de octubre, la firma deabogados en Estados Unidos, Stephenson Law,  desarrolló una serie de NFT’s, los cuales los pusieron en venta en los mercados respectivos. Estos activos más allá de ser arte eran servicios legales que la empresa ofrecía. Entonces todas las personas que habían comprado el NFT que el Bufete había lanzado, ya no tenían solamente un activo digital, sino que tenían un activo que traía consigo mismo, una serie de beneficios, como lo eran los servicios que esta empresa estaba intercambiando. Es importante ver estas situaciones que se aplican al mundo real, para tener claridad de para donde vamos como sociedad, y cómo podemos mejorar como individuos dentro de estos nuevos modelos de negocios.',
+                ]
+            },
+            {
+                title: "NFT'S y sus retos para la legalidad",
+                text: [
+                    'Debido a la estructura operativa y logística que se juntan para la creación de un NFT, es muy sencillo para cualquier persona, desde cualquier parte del mundo, obtener uno. No obstante, en la gran mayoría de países no existe ningún tipo de legislación que indique o regule la manera de llevar a cabo este proceso desde un marco jurídico legal. Lo cuál hace que estas inversiones se conviertan de muy alto riesgo. Uno de los temas a resaltar es que, al ser instituciones, empresas y marcas que están desarrollando activos financieros, en un principio debería de existir siempre una entidad reguladora que verifique que se cumplan las normas y leyes que protegen tanto al comprador, como al vendedor. Sin embargo, la falta de estas figuras de autoridad en estos procesos, son las mismas que hacen estos activos tan populares. ',
+                    'Definitivamente la regularización de esta actividad es algo que cada vez se vuelve más necesario para un funcionamiento pasivo y sin problemas al largo plazo. Pero, ahora bien; tampoco podemos pensar que no hay herramientas para trabajar, porque si las hay. “Lo que no está prohibido, está permitido”, es una frase que se utiliza normalmente cuando vemos un vicio de fondo, donde no existe una clara prohibición. Sin embargo, cuando analizamos el contexto dentro de Costa Rica sobre este tema, podemos ver cómo la ley cae en un “limbo legal” cuando se hablan estos temas, ya que no existe regulación y mucho menos prohibición de operar estos activos. Actualmente en Costa Rica se pueden comprar y vender activos digitales, siempre y cuando haya documentación que respalde dicha compra o venta. Sin embargo, esto debe ser a través de un profesional independiente, quien venda los activos digitales, como producto de su trabajo. Por ejemplo; si un diseñador gráfico crea un NFT, y decide venderlo como un servicio, puede hacerlo. Ya que estaría facturando y pagando un impuesto correspondiente a un servicio que él realmente entregó. Por otro lado, tenemos a al comprador. Que, en su condición, también debe probarle al gobierno y las entidades respectivas, de donde salen sus fondos para hacer la compra de dicho activo. Y la duda crece aún más cuando delimitamos a que esta compra se realizaría a través de criptomonedas. Es por esto que, en caso de querer realizar esta compra o venta de manera legal, se tiene que realizar a través de las instituciones bancarias del país. De manera que exista una trazabilidad por parte de las entidades financieras, de los fondos. ',
+                    'Dicho esto, podemos decir que sí existen formas para legalizar el proceso de compra y venta de estos activos digitales. Sin embargo, son procesos y tramitologías que generan más complicaciones y elevan los costos de la operación. Por lo tanto, hasta que no se genere una regulación clara sobre los NFT’s en el país, lo mejor es seguirlo haciendo dentro de un marco legal.',
+                ]
+            },
+        ],
+        date: '4 de marzo, 2022',
+        writer: 'Sebastián Badilla Quirós',
+        originalUrl: 'lawgorithmic.io',
+        original: 'LawGorithmic',
+        prev: '3',
         next: '1'
     },
 ]

@@ -34,7 +34,7 @@ function Banner() {
                     </div>
                     <div className='title'>
                         <h1>LawGorithmic</h1>
-                        <p>Asesoramiento legal orientado a nuevas tecnologías </p>
+                        <p>Especialistas en Derecho Digital y nuevas tecnologías </p>
                     </div>
                 </Styled.TitleContainer>
                 {/* <a href='#'><div className="arrow bounce"></div></a> */}
