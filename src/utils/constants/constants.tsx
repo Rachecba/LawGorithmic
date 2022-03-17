@@ -248,7 +248,7 @@ export const news = [
         id: '4',
         image: '/assets/images/NFT-token.jpg',
         title: "NFT's a través del foco legal y financiero",
-        shortDescription: 'Dos firmas que tienen operaciones en el país, Baker McKenzie y Lexia Abogados, trabajan con la Agencia Nacional de Minería como estrategas',
+        shortDescription: '¿Qué son los NFT’s?  Sus siglas significan “Non fungible token”, lo que se interpreta de manera literal en español como un “Token no fungible”. Cada uno de estos activos es representado por una serie de alfanuméricos que le dan una identidad única a cada token. Conoce más sobre este tema aquí...',
         description: [
             {
                 title: "¿Qué son los NFT's?",
