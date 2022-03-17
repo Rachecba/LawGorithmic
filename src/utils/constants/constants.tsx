@@ -116,10 +116,10 @@ export const mainBlogs = [
         description: 'Costa Rica posee una regulación interna que permite utilizar las criptomonedas sin ningún tipo de limitante. Las posturas en contra de Bitcoin parecen no marcar una tendencia alcista dentro de Costa Rica',
     },
     {
-        id: '3',
-        image: '/assets/images/news3.jpg',
-        title: 'Colombia: Primer contrato mundial de minería acuñado como NFT',
-        description: 'Dos firmas que tienen operaciones en el país, Baker McKenzie y Lexia Abogados, trabajan con la Agencia Nacional de Minería como estrategas',
+        id: '4',
+        image: '/assets/images/NFT-token.jpg',
+        title: "NFT's a través del foco legal y financiero",
+        description: '¿Qué son los NFT’s? Sus siglas significan “Non fungible token”, lo que se interpreta de manera literal en español como un “Token no fungible”',
     }
 ]
 
