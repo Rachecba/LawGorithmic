@@ -1,7 +1,6 @@
 import React, { useEffect } from "react"
 import Banner from "./banner/Banner"
 import Blogs from "./blogs/Blogs"
-import Clients from "./clients/Clients"
 import Contact from "./contact/Contact"
 import Services from "./services/Services"
 import Team from "./team/Team"

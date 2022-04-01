@@ -28,8 +28,8 @@ function Banner() {
                 <Header />
                 <Styled.TitleContainer>
                     <div className='contact-buttons'>
-                            <a className={className} ref={ref} href='https://ul.waze.com/ul?preview_venue_id=180813923.1808073698.3815409&navigate=yes&utm_campaign=waze_website&utm_source=waze_website&utm_medium=lm_share_location' target="_blank"><TiLocationArrow/></a>
-                            <a className={className} ref={ref} href='https://wa.me/50684664391' target="_blank"><RiWhatsappFill/></a>
+                            <a className={className} ref={ref} href='https://ul.waze.com/ul?preview_venue_id=180813923.1808073698.3815409&navigate=yes&utm_campaign=waze_website&utm_source=waze_website&utm_medium=lm_share_location' target="_blank" rel="noreferrer"><TiLocationArrow/></a>
+                            <a className={className} ref={ref} href='https://wa.me/50684664391' target="_blank" rel="noreferrer"><RiWhatsappFill/></a>
                             <a className={className} ref={ref} href = "mailto: info@lawgorithmic.io"><MdEmail/></a>
                     </div>
                     <div className='title'>

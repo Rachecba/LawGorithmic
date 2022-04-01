@@ -6,7 +6,6 @@ import {
   Nav,
   NavbarBrand,
   NavItem,
-  NavLink,
 } from "reactstrap";
 
 import { NavHashLink } from 'react-router-hash-link';

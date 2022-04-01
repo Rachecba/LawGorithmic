@@ -1,4 +1,3 @@
-import { faWindows } from '@fortawesome/free-brands-svg-icons'
 import { mainBlogs } from '../../../../utils/constants/constants'
 import * as Styled from './Blogs.style'
 import Card from './Cards/Card'
