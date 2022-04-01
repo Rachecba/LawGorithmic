@@ -110,7 +110,7 @@ export const team = [
         image: '/assets/images/Accountant.png',
         name: 'Lic. Gerry Sánchez',
         position: 'Contador Público Autorizado',
-        career: 'Ficaslidad & Nuevas Tecnologías'
+        career: 'Fiscalidad & Nuevas Tecnologías'
     }
 ]
 
