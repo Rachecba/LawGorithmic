@@ -47,7 +47,7 @@ export const CardFront = styled.div`
   z-index: 10;
 
   ${(props) => props.theme.breakpoints.down('sm')} {
-    padding: 0.5rem 3rem;
+    padding: 0.5rem 2.5rem;
   }
 `
 
@@ -101,8 +101,7 @@ export const ArrowsTopBack = styled.div`
   margin-left: -1.5rem;
 
   ${(props) => props.theme.breakpoints.down('sm')} {
-    margin-left: 0.5rem;
-    margin-top: 5rem;
+    margin-left: -0.5rem;
   }
 `
 
@@ -162,8 +161,4 @@ export const ArrowsBottomBack = styled.div`
   justify-content: end;
   padding-top: 6.5rem;
   margin-bottom: 3rem;
-
-  ${(props) => props.theme.breakpoints.down('sm')} {
-    margin-bottom: 4rem;
-  }
 `
