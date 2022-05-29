@@ -295,3 +295,60 @@ export const headerBlog = {
     title: 'Minería de Bitcoin con energía hidroeléctrica',
     description: 'Costa Rica posee una regulación interna que permite utilizar las criptomonedas sin ningún tipo de limitante. Las posturas en contra de Bitcoin parecen no marcar una tendencia alcista dentro de Costa Rica. Al menos 650 mineros de Bitcoin están operando desde la hidroeléctrica costarricense. '
 }
+
+export const arrows = <><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="96.568" height="46.786" viewBox="0 0 96.568 46.786">
+  <defs>
+    <filter id="Icon_material-keyboard-arrow-right" x="15.05" y="0" width="37.464" height="46.786" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" />
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feFlood flood-opacity="0.612"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Icon_material-keyboard-arrow-right-2" x="29.005" y="0" width="37.464" height="46.786" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" />
+      <feGaussianBlur stdDeviation="3.5" result="blur-2"/>
+      <feFlood flood-opacity="0.612"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Icon_material-keyboard-arrow-right-3" x="0" y="0" width="37.464" height="46.786" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" />
+      <feGaussianBlur stdDeviation="3.5" result="blur-3"/>
+      <feFlood flood-opacity="0.612"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Icon_material-keyboard-arrow-right-4" x="44.055" y="0" width="37.464" height="46.786" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" />
+      <feGaussianBlur stdDeviation="3.5" result="blur-4"/>
+      <feFlood flood-opacity="0.612"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Icon_material-keyboard-arrow-right-5" x="59.104" y="0" width="37.464" height="46.786" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" />
+      <feGaussianBlur stdDeviation="3.5" result="blur-5"/>
+      <feFlood flood-opacity="0.612"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_7" data-name="Group 7" transform="translate(-1013.089 -240.403)">
+    <g transform="matrix(1, 0, 0, 1, 1013.09, 240.4)" filter="url(#Icon_material-keyboard-arrow-right)">
+      <path id="Icon_material-keyboard-arrow-right-6" data-name="Icon material-keyboard-arrow-right" d="M12.885,30.133l9.3-9.322-9.3-9.322,2.864-2.864L27.935,20.811,15.749,33Z" transform="translate(13.37 -0.42)" fill="#fff" stroke="#fff" stroke-width="1"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1013.09, 240.4)" filter="url(#Icon_material-keyboard-arrow-right-2)">
+      <path id="Icon_material-keyboard-arrow-right-7" data-name="Icon material-keyboard-arrow-right" d="M12.885,30.133l9.3-9.322-9.3-9.322,2.864-2.864L27.935,20.811,15.749,33Z" transform="translate(27.33 -0.42)" fill="#fff" stroke="#fff" stroke-width="1"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1013.09, 240.4)" filter="url(#Icon_material-keyboard-arrow-right-3)">
+      <path id="Icon_material-keyboard-arrow-right-8" data-name="Icon material-keyboard-arrow-right" d="M12.885,30.133l9.3-9.322-9.3-9.322,2.864-2.864L27.935,20.811,15.749,33Z" transform="translate(-1.68 -0.42)" fill="#fff" stroke="#fff" stroke-width="1"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1013.09, 240.4)" filter="url(#Icon_material-keyboard-arrow-right-4)">
+      <path id="Icon_material-keyboard-arrow-right-9" data-name="Icon material-keyboard-arrow-right" d="M12.885,30.133l9.3-9.322-9.3-9.322,2.864-2.864L27.935,20.811,15.749,33Z" transform="translate(42.38 -0.42)" fill="#fff" stroke="#fff" stroke-width="1"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1013.09, 240.4)" filter="url(#Icon_material-keyboard-arrow-right-5)">
+      <path id="Icon_material-keyboard-arrow-right-10" data-name="Icon material-keyboard-arrow-right" d="M12.885,30.133l9.3-9.322-9.3-9.322,2.864-2.864L27.935,20.811,15.749,33Z" transform="translate(57.43 -0.42)" fill="#fff" stroke="#fff" stroke-width="1"/>
+    </g>
+  </g>
+</svg></>
