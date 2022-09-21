@@ -116,7 +116,7 @@ export const team = [
         image: '/assets/images/Business.png',
         name: 'Lic. Solangie Brenes',
         position: 'Administradora de Empresas',
-        career: 'Cumplimiento Normativo y regulatorio'
+        career: 'Cumplimiento Normativo y Regulatorio'
     }
 ]
 
