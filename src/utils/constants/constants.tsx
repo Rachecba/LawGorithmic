@@ -111,6 +111,12 @@ export const team = [
         name: 'Lic. Jerry Sánchez',
         position: 'Contador Público Autorizado',
         career: 'Fiscalidad & Nuevas Tecnologías'
+    },
+    {
+        image: '/assets/images/Business.png',
+        name: 'Lic. Solangie Brenes',
+        position: 'Administradora de Empresas',
+        career: 'Cumplimiento Normativo y regulatorio'
     }
 ]
 
