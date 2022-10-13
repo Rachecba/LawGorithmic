@@ -81,7 +81,7 @@ function Contact() {
                         </div>
                     </div>
                     <div className="location">
-                        <span><img src='/assets/icons/location.png' alt='location'/></span> Rohrmoser, 50m norte de Euromobilia
+                        <span><img src='/assets/icons/location.png' alt='location'/></span> Sabana, San José. Condominio Torres del Lago, Oficina 2-A
                     </div>
                     <div className="waze-social">
                         <div>

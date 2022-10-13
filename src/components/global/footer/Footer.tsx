@@ -25,7 +25,7 @@ function Footer() {
                     <h1>Contacto</h1>
                     <ul className="contacts">
                         <li><span><img alt='instagram' src='/assets/icons/phone-blue.png' /></span> 8466-4391</li>
-                        <li><span><img alt='instagram' src='/assets/icons/location.png' /></span> Rohrmoser, 50m norte de Euromobilia</li>
+                        <li><span><img alt='instagram' src='/assets/icons/location.png' /></span> Sabana, San José. Condominio Torres del Lago, Oficina 2-A</li>
                         <li><span><img alt='instagram' src='/assets/icons/mail-lightblue.png' /></span> info@lawgorithmic.io</li>
                         <li><a className='waze' target='_blank' href='https://ul.waze.com/ul?preview_venue_id=180813923.1808073698.3815409&navigate=yes&utm_campaign=waze_website&utm_source=waze_website&utm_medium=lm_share_location' rel="noreferrer"><span><img alt='instagram' src='/assets/icons/waze.png'/></span> Abrir en Waze</a></li>
                     </ul>
