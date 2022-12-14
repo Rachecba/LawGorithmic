@@ -89,12 +89,6 @@ export const team = [
         career: 'Legal Tech'
     },
     {
-        image: '/assets/images/SecureData.png',
-        name: 'Lic. Carlos Chinchilla',
-        position: 'Abogado',
-        career: 'Protección de datos. Derecho regulatorio. Personalidad virtual'
-    },
-    {
         image: '/assets/images/International.png',
         name: 'Lic. Dayana Badilla',
         position: 'Abogada',
